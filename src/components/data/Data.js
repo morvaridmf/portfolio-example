@@ -25,21 +25,8 @@ export const featuredPortfolio = [
         title: "feature picture 5",
         img:"https://www.superprof.co.uk/blog/wp-content/uploads/2021/01/learning-to-code-at-home.jpg"
     },
-     {
-        id:6,
-        title: "feature picture 6",
-        img:"https://www.superprof.co.uk/blog/wp-content/uploads/2021/01/learning-to-code-at-home.jpg"
-    },
-     {
-        id:7,
-        title: "feature picture 7",
-        img:"https://www.superprof.co.uk/blog/wp-content/uploads/2021/01/learning-to-code-at-home.jpg"
-    },
-     {
-        id:8,
-        title: "feature picture 8",
-        img:"https://www.superprof.co.uk/blog/wp-content/uploads/2021/01/learning-to-code-at-home.jpg"
-    }
+  
+    
 ]
 
 
@@ -69,21 +56,7 @@ export const webPortfolio = [
         title: "web picture 5",
         img:"https://assets.entrepreneur.com/content/3x2/2000/20150708172005-coding-working-workspace-apple-macintosh.jpeg"
     },
-     {
-        id:6,
-        title: "web picture 6",
-        img:"https://assets.entrepreneur.com/content/3x2/2000/20150708172005-coding-working-workspace-apple-macintosh.jpeg"
-    },
-     {
-        id:7,
-        title: "web picture 7",
-        img:"https://assets.entrepreneur.com/content/3x2/2000/20150708172005-coding-working-workspace-apple-macintosh.jpeg"
-    },
-     {
-        id:8,
-        title: "web picture 8",
-        img:"https://assets.entrepreneur.com/content/3x2/2000/20150708172005-coding-working-workspace-apple-macintosh.jpeg"
-    },
+     
 
 ]
 
@@ -113,21 +86,7 @@ export const mobilePortfolio = [
         title: "mobile picture 5",
         img:"https://images.indulgexpress.com/uploads/user/imagelibrary/2021/1/12/original/smartphones.jpg?w=400&dpr=2.6"
     },
-     {
-        id:6,
-        title: "mobile picture 6",
-        img:"https://images.indulgexpress.com/uploads/user/imagelibrary/2021/1/12/original/smartphones.jpg?w=400&dpr=2.6"
-    },
-     {
-        id:7,
-        title: "mobile picture 7",
-        img:"https://images.indulgexpress.com/uploads/user/imagelibrary/2021/1/12/original/smartphones.jpg?w=400&dpr=2.6"
-    },
-     {
-        id:8,
-        title: "mobile picture 8",
-        img:"https://images.indulgexpress.com/uploads/user/imagelibrary/2021/1/12/original/smartphones.jpg?w=400&dpr=2.6"
-    },
+   
 
 ]
 
@@ -157,21 +116,7 @@ export const designPortfolio = [
         title: "design picture 5",
         img:"https://cdn.dribbble.com/users/2328627/screenshots/12564415/elementaryrobotics_dribbble.png?compress=1&resize=400x300"
     },
-    {
-        id:6,
-        title: "design picture 6",
-        img:"https://cdn.dribbble.com/users/2328627/screenshots/12564415/elementaryrobotics_dribbble.png?compress=1&resize=400x300"
-    },
-    {
-        id:7,
-        title: "design picture 7",
-        img:"https://cdn.dribbble.com/users/2328627/screenshots/12564415/elementaryrobotics_dribbble.png?compress=1&resize=400x300"
-    },
-    {
-        id:8,
-        title: "design picture 8",
-        img:"https://cdn.dribbble.com/users/2328627/screenshots/12564415/elementaryrobotics_dribbble.png?compress=1&resize=400x300"
-    },
+   
 ]
 
 export const brandingPortfolio = [
@@ -200,19 +145,5 @@ export const brandingPortfolio = [
         title: "branding picture 5",
         img:"https://static.vecteezy.com/system/resources/previews/002/368/101/non_2x/branding-web-concept-design-in-flat-style-illustration-vector.jpg"
     },
-    {
-        id:6,
-        title: "branding picture 6",
-        img:"https://static.vecteezy.com/system/resources/previews/002/368/101/non_2x/branding-web-concept-design-in-flat-style-illustration-vector.jpg"
-    },
-    {
-        id:7,
-        title: "branding picture 7",
-        img:"https://static.vecteezy.com/system/resources/previews/002/368/101/non_2x/branding-web-concept-design-in-flat-style-illustration-vector.jpg"
-    },
-    {
-        id:8,
-        title: "branding picture 8",
-        img:"https://static.vecteezy.com/system/resources/previews/002/368/101/non_2x/branding-web-concept-design-in-flat-style-illustration-vector.jpg"
-    },
+   
 ]
