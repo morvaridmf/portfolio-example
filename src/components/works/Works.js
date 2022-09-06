@@ -1,6 +1,7 @@
 import React from 'react'
 import "./works.scss"
-import {KeyboardArrowRight, KeyboardArrowLeft} from "@material-ui/icons";
+import {KeyboardArrowRight, KeyboardArrowLeft ,KeyboardArrowDown} from "@material-ui/icons";
+
 import {useState} from "react"
 
 
@@ -65,6 +66,12 @@ export default function Works() {
        <a className='arrowRight'  onClick={()=>handleClick("right")}>
       <KeyboardArrowRight className='right'/>
       </a>
+
+         <a href='#testimonials'>
+               <KeyboardArrowDown className='arrow'/>
+               </a>
+
+
 
     </div>
   )

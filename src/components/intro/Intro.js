@@ -30,7 +30,6 @@ export default function Intro() {
           <h3>Full stack <span ref={textRef}>JavaScript developer</span></h3>
           <a href='#portfolio'>
             <KeyboardArrowDown className='arrow'/>
-            
           </a>
 
         </div>
