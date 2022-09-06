@@ -46,8 +46,8 @@
 
     .item{
         img{
-        width: 280px;
-        height: 230px;
+        width: 250px;
+        height: 200px;
         z-index: 5;
         object-fit: cover;
           @include mobile{
@@ -63,8 +63,8 @@
       margin-bottom: 15px;
          
        }
-        width: 280px;
-        height: 230px;
+        width: 250px;
+        height: 200px;
         border-radius: 10px;
         border: 1px solid lightgray;
         margin: 10px 20px;
@@ -94,6 +94,7 @@
         font-weight: 300;
         color: #494395;
         left: 20%;
+        margin-top: 40px;
         overflow: hidden;
 
         @include mobile{
