@@ -1,13 +1,17 @@
 @import "./../../global.scss";
+
 .intro{
     display: flex;
     background-color: white;
 
+    @include mobile{
+        flex-direction: column;
+        align-items: center;
+    }
+
 
     .left {
         flex: 0.5;
-        // background-color: black;
-
 
     }
     .imageContainer{
@@ -27,6 +31,12 @@
              display: flex;
             justify-content: center;
             align-items: center;
+
+             @include mobile{
+                margin-top: 30px;
+                 width: 80%;
+                 height: 80%;
+    }
         }
     }
     
@@ -45,15 +55,31 @@
             flex-direction: column;
             justify-content: center;
             align-items: flex-start;
+
+               @include mobile{
+                margin-top: -30px;
+                padding-left: 0;
+                align-items: center;
+    }
+
+            
         }
 
         h1{
             font-size: 55px;
             margin: 10px 0;
             color:#494395;
+             @include mobile{
+                font-size: 30px;
+                margin-top: 20px;
+             }
+            
         }
         h2{
             font-size: 45px;
+              @include mobile{
+                font-size: 30px;
+             }
         }
 
         h3{
@@ -62,6 +88,9 @@
                 font-size: inherit;
                 background-color: white;
             }
+              @include mobile{
+                font-size: 20px;
+             }
         }
     }
     .arrow{
@@ -73,6 +102,12 @@
         left: 20%;
         // bottom: -1%;
         margin-top: 200px;
+
+          @include mobile{
+                font-size: 20px;
+                left: 0;
+             }
+
     }
 }
 
