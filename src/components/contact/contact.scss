@@ -1,7 +1,7 @@
 @import "./../../global.scss";
 
 .contact{
-    background-color: rgb(255, 255, 255);
+    background-color:$mainColor;
     display: flex;
        @include mobile{
                flex-direction: column;
@@ -34,6 +34,7 @@ object-fit: cover;    }
         h1{
             margin-bottom: 30px;
             font-size: 50px;
+            color: rgb(191, 191, 191);
                @include mobile{
                font-size: 20px;
        }
@@ -60,6 +61,8 @@ object-fit: cover;    }
                 font-size: 14px;
                 border-radius: 10px;
                 padding-left: 10px;
+                background-color: #464656;
+                border: none;
                  @include mobile{
                     width: 250px;
                 height: 30px;
@@ -72,6 +75,8 @@ object-fit: cover;    }
             }
             textarea{
                  width: 300px;
+                  background-color: #464656;
+                border: none;
                  padding-left: 10px;
                  padding-top: 10px;
                 height: 200px;
